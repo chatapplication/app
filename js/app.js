@@ -14,7 +14,7 @@
     var p = PUBNUB.init({
         subscribe_key: 'sub-c-fc523d86-791e-11e5-a49d-02ee2ddab7fe',
         publish_key:   'pub-c-fe4f4f76-c5c2-41d1-bba7-0dfb4c2821e8'
-    });
+    }); 
 
     p.subscribe({
         channel  : channel,
